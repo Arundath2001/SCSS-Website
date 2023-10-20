@@ -1,0 +1,41 @@
+.imgtile{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    margin: 20px;
+
+    *{
+        font-family: 'oswald';
+    }
+    &__head{
+        
+        font-size: 25px;
+    }
+    &--para{
+        font-size: 13px;
+        width: 100px;
+    }
+    &__link{
+        text-decoration: none;
+        color: lightgreen;
+    }
+    &__img{
+        width: 100%;
+    }
+    &--newimg{
+        height: 200px;
+        width:200px;
+    }
+    
+    
+}
+@include mobile{
+    .imgtile{
+        width: 100%;
+        align-items: center;
+        &__para{
+            width: 100%;
+        }
+    }
+}

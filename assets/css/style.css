@@ -1,0 +1,293 @@
+* {
+  font-family: 'oswald'; }
+
+h4 {
+  text-transform: uppercase; }
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+svg {
+  font-size: 100px; }
+
+svg:hover {
+  fill: #323ebe; }
+
+img:hover {
+  transition: .7s;
+  transform: scale(0.9); }
+
+.med-banner__link {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #383737;
+  color: white;
+  padding: 5px 5px; }
+.med-banner__link:hover {
+  background-color: lightgray; }
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  font-family: "oswald";
+  font-weight: lighter;
+  text-transform: uppercase;
+  justify-content: center;
+  margin: 40px;
+  color: #7e6e6e; }
+  .icon:hover {
+    transform: scale(1);
+    transition: .7s;
+    color: #323ebe; }
+  .icon__head {
+    text-align: center; }
+
+.imgtile {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: white;
+  margin: 20px; }
+  .imgtile * {
+    font-family: 'oswald'; }
+  .imgtile__head {
+    font-size: 25px; }
+  .imgtile--para {
+    font-size: 13px;
+    width: 100px; }
+  .imgtile__link {
+    text-decoration: none;
+    color: lightgreen; }
+  .imgtile__img {
+    width: 100%; }
+  .imgtile--newimg {
+    height: 200px;
+    width: 200px; }
+
+@media (max-width: 768px) {
+  .imgtile {
+    width: 100%;
+    align-items: center; }
+    .imgtile__para {
+      width: 100%; } }
+.tile {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  padding: 60px;
+  background-color: #b8bcc1; }
+  .tile:hover {
+    background-color: lightblue;
+    transition: .7s;
+    transform: scale(0.9); }
+  .tile__para {
+    font-size: 15px;
+    margin: 15px 15px; }
+  .tile__head {
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-top: 20px; }
+  .tile--lightgrey {
+    background-color: #898888; }
+  .tile--grey {
+    background-color: #2f3337; }
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 60px; }
+  .title__head {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'oswald'; }
+  .title__para {
+    font-size: 15px;
+    text-align: center;
+    margin: 30px; }
+  .title--head1 {
+    margin-top: 100px;
+    color: wheat; }
+  .title--para {
+    color: wheat; }
+
+.groupicon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+@media (max-width: 768px) {
+  .groupicon {
+    display: block; } }
+.mainimg {
+  display: flex;
+  flex-direction: row;
+  padding-left: 160px;
+  padding-right: 160px;
+  margin-inline: 20px; }
+  .mainimg--newbanner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+
+@media (max-width: 768px) {
+  .mainimg {
+    display: block;
+    padding-left: 0px;
+    justify-content: center;
+    padding-bottom: 20px;
+    width: 80%;
+    padding-right: 0; } }
+.med-banner {
+  background-image: url(/Task8/assets/images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  display: block; }
+  .med-banner__head {
+    color: #383737;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: "oswald"; }
+  .med-banner__title {
+    padding-left: 200px;
+    width: 500px;
+    padding-top: 300px; }
+  .med-banner__link1 {
+    text-decoration: none;
+    color: #026e92; }
+
+@media (max-width: 768px) {
+  .med-banner {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 100px; }
+    .med-banner__title {
+      padding-left: 0px;
+      padding-top: 200px;
+      width: 100%; }
+    .med-banner__para {
+      text-align: left;
+      width: 100%; } }
+.maintile {
+  height: 400px;
+  padding: 0;
+  margin: 70px;
+  display: flex; }
+
+@media (max-width: 768px) {
+  .maintile {
+    display: block;
+    height: 100%;
+    margin-top: 250px; } }
+.modern {
+  margin-top: 300px;
+  margin-left: 100px;
+  margin-right: 100px; }
+  .modern__cont {
+    display: flex;
+    flex-direction: row; }
+  .modern__img {
+    width: 360px;
+    height: 340px;
+    margin: 30px; }
+  .modern h2 {
+    text-transform: uppercase;
+    font-family: 'oswald'; }
+  .modern__cont1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px;
+    font-family: 'oswald'; }
+  .modern__left {
+    margin-left: 20px;
+    width: 50%; }
+
+@media (max-width: 768px) {
+  .modern {
+    margin-top: 1600px;
+    margin-left: 0;
+    margin-right: 0; }
+    .modern__cont {
+      display: block; }
+    .modern__img {
+      margin: 20px; } }
+.depart {
+  background-color: lightgrey;
+  padding: 30px; }
+  .depart__head {
+    font-family: 'oswald'; }
+
+.smallcont {
+  display: flex;
+  flex-direction: row;
+  padding: 50px; }
+  .smallcont__img {
+    width: 340px; }
+  .smallcont__cont {
+    align-items: center;
+    padding: 40px;
+    font-family: 'oswald';
+    font-size: 18px; }
+  .smallcont__head {
+    padding-bottom: 20px;
+    font-family: 'oswald';
+    text-transform: uppercase;
+    font-size: 30px; }
+
+@media (max-width: 768px) {
+  .smallcont {
+    display: block;
+    padding: 20px; } }
+.wecare {
+  background-color: #9bb3ba;
+  width: 100%; }
+
+.back {
+  background-image: url(/Task8/assets/images/world.png);
+  width: 100%;
+  height: 400px; }
+
+.spec {
+  justify-content: center;
+  align-items: center; }
+  .spec h4 {
+    font-size: 15px; }
+  .spec__cont {
+    background-color: lightgrey; }
+
+.getin {
+  text-align: center;
+  background-color: #888383;
+  margin-bottom: 20px; }
+  .getin input {
+    background-color: #5c6c7c;
+    width: 40%;
+    border: 0;
+    height: 30px;
+    margin: 10px; }
+  .getin textarea {
+    background-color: #5c6c7c;
+    width: 40%;
+    height: 100px;
+    margin: 10px; }
+  .getin ::placeholder {
+    color: white;
+    opacity: 1; }
+  .getin input:hover {
+    background-color: lightblue;
+    transform: 2s;
+    transform: scale(1); }
+  .getin textarea:hover {
+    background-color: lightblue;
+    transform: 2s;
+    transform: scale(1); }
+
+/*# sourceMappingURL=style.css.map */

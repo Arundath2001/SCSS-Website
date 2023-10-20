@@ -1,0 +1,15 @@
+.maintile{
+    height: 400px;
+    padding: 0;
+    margin: 70px;
+    display: flex;
+
+}
+@include mobile{
+    .maintile{
+        display: block;
+        height: 100%;
+        margin-top: 250px;
+        
+    }
+}

@@ -1,0 +1,23 @@
+.mainimg{
+    display: flex;
+    flex-direction: row;
+    padding-left: 160px;
+    padding-right: 160px;
+    margin-inline: 20px;
+    &--newbanner{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+}
+@include mobile{
+    .mainimg{
+        display: block;
+        padding-left: 0px;
+        justify-content: center;
+        padding-bottom: 20px;
+        width: 80%;
+        padding-right: 0;
+    }
+}

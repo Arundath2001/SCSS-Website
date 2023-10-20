@@ -1,0 +1,18 @@
+.icon{
+    display: flex;
+    flex-direction: column;
+    font-family: "oswald";
+    font-weight: lighter;
+    text-transform: uppercase;
+    justify-content: center;
+    margin: 40px;
+    color: rgb(126, 110, 110);
+    &:hover{
+        transform: scale(1);
+        transition: .7s;
+        color: rgb(50, 62, 190);
+    }
+    &__head{
+        text-align: center;
+    }
+}

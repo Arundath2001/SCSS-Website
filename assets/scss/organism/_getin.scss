@@ -1,0 +1,33 @@
+.getin{
+        text-align: center;
+        background-color: rgb(136, 131, 131);
+        margin-bottom: 20px;
+        input{
+            background-color: rgb(92, 108, 124);
+            width: 40%;
+            border: 0;
+            height: 30px;
+            margin: 10px;
+        }
+        textarea{
+            background-color: rgb(92, 108, 124);
+            width: 40%;
+            height: 100px;
+            margin: 10px;
+            
+        }
+        ::placeholder{
+            color: white;
+            opacity: 1;
+        }
+        input:hover{
+            background-color: lightblue;
+            transform: 2s;
+            transform: scale(1);
+        }
+        textarea:hover{
+            background-color: lightblue;
+            transform: 2s;
+            transform: scale(1);
+        }
+}

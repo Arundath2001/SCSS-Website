@@ -1,0 +1,27 @@
+.smallcont{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    
+    &__img{
+        width: 340px;
+    }
+    &__cont{
+        align-items: center;
+        padding: 40px;
+        font-family: 'oswald';
+        font-size: 18px;
+    }
+    &__head{
+        padding-bottom: 20px;
+        font-family:  'oswald';
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+}
+@include mobile{
+    .smallcont{
+        display: block;
+        padding: 20px;
+    }
+}

@@ -1,0 +1,13 @@
+.groupicon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+@include mobile {
+    .groupicon{
+        display: block;
+        
+
+    }
+}
